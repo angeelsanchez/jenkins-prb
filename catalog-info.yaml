@@ -6,7 +6,7 @@ metadata:
   annotations:
     github.com/project-slug: angeelsanchez/jenkins-prb
     backstage.io/techdocs-ref: dir:.
-    jenkins.io/job-full-name: jenkins-prb
+    jenkins.io/job-full-name: jenkins-pipeline
 spec:
   type: service
   lifecycle: experimental
