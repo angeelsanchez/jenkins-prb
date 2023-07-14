@@ -1,22 +1,22 @@
 pipeline {
-    agent {label any}
+    agent any
 
     stages {
         stage('Checkout') { 
             steps {
-                   echo "Dummy Step: push validated image to registry"
-        }
+                echo "Dummy Step: Checkout"
+            }
         }
 
         stage('Push to registry') {
             steps {
-                echo "Dummy Step: push validated image to registry"
+                echo "Dummy Step: Push to registry"
             }
         }
     } 
     post {
         always {
-            echo "Dummy Step: push validated image to registry"
+            echo "Dummy Step: Post Build Action"
         }
     }
 }
