@@ -8,6 +8,6 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     jenkins.io/job-full-name: jenkins-pipeline
 spec:
-  type: service
+  type: demo
   lifecycle: experimental
-  owner: user:guest
+  owner: angel
